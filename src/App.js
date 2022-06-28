@@ -1,17 +1,21 @@
 // import logo from './logo.svg';
 import './App.css';
 import Spline from '@splinetool/react-spline';
+import { AboutSection, aboutSection } from './sections/AboutSection'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          v0.2 of the website
-        </p>
-      <Spline scene="https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode" />
-      </header>
-    </div>
+    <main>
+      <div className="App">
+        <header className="App-header">
+          <p>
+            v0.2 of the website
+          </p>
+        </header>
+        <br />
+      </div>
+      <AboutSection />
+    </main>
   );
 }
 
