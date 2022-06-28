@@ -8,7 +8,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <p>
-            v0.2 of the website
+            v0.1.2 of the website
           </p>
         </header>
         <br />
