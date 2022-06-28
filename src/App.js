@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import Spline from '@splinetool/react-spline';
-import { AboutSection, aboutSection } from './sections/AboutSection'
+import { AboutSection } from './sections/AboutSection'
 
 function App() {
   return (
