@@ -1,0 +1,6 @@
+Use netlify 
+
+Settings:
+    Build command: npm run build
+    
+    Publish directory: build
