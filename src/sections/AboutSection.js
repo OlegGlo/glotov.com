@@ -129,7 +129,7 @@ export const AboutSection = () => {
                 <intro style={introStyle} >Hi, my name is</intro>
                 <h1 style={h1Style} >Oleg Glotov</h1>
                 <h2 style={h2Style} >Software Engineer</h2>
-                <p style={descriptionStyle} >I am a software engineering student at mcmaster U, currently looking for interesting projects to work on. Duis nunc metus, pretium eget tempus ut, imperdiet at mi. Nam eu felis sed dolor suscipit interdum eget quis purus. </p>
+                <p style={descriptionStyle} >I am a software engineering student at mcmaster U, currently looking for interesting projects to work on. This website is still in development, and everything is subject to change. Nam eu felis sed dolor suscipit interdum eget quis purus. </p>
                 <button style={buttonStyle} >resume</button>
                 <ul style = {{color: 'white'}}> todo:
                     <li>3d shit = black background </li>
