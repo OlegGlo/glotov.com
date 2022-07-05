@@ -43,7 +43,7 @@ export const AboutSection = () => {
                 </div>
             </div>
             <div className='Image'>
-                <img src = {me} alt = 'myself' />
+                <img src = {me} alt = 'myself'/>
             </div>
         </main>
     )
