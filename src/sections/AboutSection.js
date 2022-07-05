@@ -1,5 +1,6 @@
 
 import React from 'react';
+import me from '../content/me.png';
 
 export const AboutSection = () => {
 
@@ -18,26 +19,31 @@ export const AboutSection = () => {
     }
 
     return (
-        <main style = {backgroundStyle}>
-            <div style ={{color: "white"}}>
-                <h1>01. About me</h1>
+        <main style={backgroundStyle}>
+            <div className='Text'>
+                <div style={{ color: "white" }}>
+                    <h1>01. About me</h1>
+                </div>
+                <div>
+                    <p>
+                        paragraph 1
+                    </p>
+                    <br></br>
+                    <p>
+                        paragraph 1
+                    </p>
+                </div>
+                <div>
+                    <ul> stack
+                        <li>c++ </li>
+                        <li>vim</li>
+                        <li>c--</li>
+                        <li>c hashtag</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <p>
-                    paragraph 1
-                </p>
-                <br></br>
-                <p>
-                    paragraph 1
-                </p>
-            </div>
-            <div>
-                <ul> stack
-                    <li>c++ </li>
-                    <li>vim</li>
-                    <li>c--</li>
-                    <li>c hashtag</li>
-                </ul>
+            <div className='Image'>
+                <img src = {me} alt = 'myself' />
             </div>
         </main>
     )
