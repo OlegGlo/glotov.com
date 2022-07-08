@@ -7,7 +7,7 @@ export const IntroSection = () => {
 
     const backgroundStyle = {
         position: 'relative',
-        background: '#0E0E0E',
+        
         // border: "1px solid #000000;",
         // width: '63%',
         // margin: '0 1.5%',
@@ -42,6 +42,7 @@ export const IntroSection = () => {
         display: 'flex',
         flexDirection: 'column',
         width: '700px',
+        overflow: 'visible',
         // float: 'left',
 
     }
@@ -102,7 +103,7 @@ export const IntroSection = () => {
         left: '65px',
         // inlineSize: '150px',
         // "width": "200px",
-        "max-width": "600px",
+        // "maxWidth": "600px",
         // "height": "66px",
 
         "overflowWrap": "break-word",
@@ -127,7 +128,7 @@ export const IntroSection = () => {
     return (
         <main style={backgroundStyle}>
             <div style={textBlockStyle}>
-                <intro style={introStyle} >Hi, my name is</intro>
+                <div className='Intro' style={introStyle} >Hi, my name is</div>
                 <h1 style={h1Style} >Oleg Glotov</h1>
                 <h2 style={h2Style} >Software Engineer</h2>
                 <p style={descriptionStyle} >I am a software engineering student at mcmaster U, currently looking for interesting projects to work on. This website is still in development, and everything is subject to change. Nam eu felis sed dolor suscipit interdum eget quis purus. </p>
@@ -140,7 +141,8 @@ export const IntroSection = () => {
                 </ul>
             </div>
             <div style={splineBlockStyle}>
-                <Spline style={splineStyle} scene="https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode" />
+                {/* <Spline style={splineStyle} scene="https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode" /> */}
+                <iframe src='https://my.spline.design/untitled-a0b69fa2c0061c28134dbb27a24ecb3a/' frameborder='0' width='100%' height='100%'></iframe>
             </div>
 
         </main>

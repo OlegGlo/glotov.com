@@ -6,7 +6,7 @@ export const AboutSection = () => {
 
     const backgroundStyle = {
         position: 'relative',
-        background: '#0E0E0E',
+        
         // border: "1px solid #000000;",
         // width: '63%',
         // margin: '0 1.5%',
