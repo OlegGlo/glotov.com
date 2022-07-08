@@ -1,5 +1,5 @@
 
-import Spline from '@splinetool/react-spline';
+// import Spline from '@splinetool/react-spline';
 import React from 'react';
 // import ''
 
@@ -47,14 +47,14 @@ export const IntroSection = () => {
 
     }
 
-    const splineStyle = {
-        // display: 'inline-block',
-        // position: 'relative',
-        // width: '200px',
-        // height: '200px',
-        // overflow: 'hidden',
-        // borderRadius: '50%',
-    }
+    // const splineStyle = {
+    //     // display: 'inline-block',
+    //     // position: 'relative',
+    //     // width: '200px',
+    //     // height: '200px',
+    //     // overflow: 'hidden',
+    //     // borderRadius: '50%',
+    // }
 
     const introStyle = {
         position: 'relative',
@@ -142,7 +142,7 @@ export const IntroSection = () => {
             </div>
             <div style={splineBlockStyle}>
                 {/* <Spline style={splineStyle} scene="https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode" /> */}
-                <iframe src='https://my.spline.design/untitled-a0b69fa2c0061c28134dbb27a24ecb3a/' frameborder='0' width='100%' height='100%'></iframe>
+                <iframe title = 'title' src='https://my.spline.design/untitled-a0b69fa2c0061c28134dbb27a24ecb3a/' frameborder='0' width='100%' height='100%'></iframe>
             </div>
 
         </main>
