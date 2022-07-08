@@ -8,7 +8,7 @@ export const WorkExperienceSection = () => {
     }
 
     return (
-        <main>
+        <main style={backgroundStyle}>
 
         </main>
     )

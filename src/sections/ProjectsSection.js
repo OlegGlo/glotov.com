@@ -8,7 +8,7 @@ export const ProjectsSection = () => {
     }
 
     return (
-        <main>
+        <main style = {backgroundStyle}>
 
         </main>
     )
