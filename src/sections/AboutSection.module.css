@@ -1,0 +1,19 @@
+.background {
+    background-color: black;
+    display: flex;
+    margin: 5%;
+}
+
+.sectionTitle {
+    color: turquoise;
+}
+
+.sectionText {
+    color: blue;
+    flex: auto;
+}
+
+.sectionImage {
+    flex: auto;
+    background-color: black;
+}
