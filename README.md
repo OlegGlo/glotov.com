@@ -2,6 +2,11 @@
 
 Second iteration of my portfolio. Rebuilt with Next.js and Tailwind.css
 
+## TODO:
+
+- [x] Add a reference to the old portfolio
+- [x] Add a "?ref=" to where the website was accessed from
+
 ## Usage
 
 Install packages and run
